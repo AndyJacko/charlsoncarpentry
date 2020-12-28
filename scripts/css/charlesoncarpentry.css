@@ -1,0 +1,136 @@
+@charset "utf-8";
+* { padding: 0px; margin: 0px; }
+
+/*HTML ENTITIES*/
+body{ overflow-y: scroll; font-size: 12px; font-family: arial; color: #000; margin: 0; padding: 0; text-align: left; direction: ltr; background: url(/images/design/pagebg.jpg) repeat; }
+img{ border: 0; }
+h1, h2 { color: #692a2c; }
+a { color: #692a2c; text-decoration: none; }
+a:hover { text-decoration: underline; }
+p { padding: 10px; text-align:justify; }
+
+/*GENERAL CLASSES*/
+.clearfix { clear: both; }
+.aligncenter { text-align: center; }
+.iBlock { display: inline-block; }
+.lFloat { float: left; }
+.rFloat { float: right; }
+.aMiddle { vertical-align: middle; }
+.aBottom { vertical-align: bottom; }
+.msg { color: #901b4f; font-size: 16px; font-weight: bold; }
+.picborder { border: 2px solid #692a2c; }
+.corners { border-radius: 5px; }
+.aLeft { text-align: left; }
+.aCentre { text-align: center; }
+.smallTxt { font-size: 10px; }
+.yellowText { color: #FFF; }
+.galborder { border: 3px solid #692a2c; margin: 6px; border-radius: 4px; width: 125px; }
+.twt { color: #FFF; font-size: 16px; font-weight: bold; } 
+/* border: 1px solid #000; */
+
+/*MAIN LAYOUT*/
+#maincontainer { width: 950px; margin: auto; position: relative; top: 8px; }
+#designcontainer { width: 950px; margin:auto; position: relative; top: 5px; border-radius: 5px; }
+
+/*HEADER*/
+header { width: 950px; height: 175px; margin: auto; position: relative; background: url(/images/design/headerbg.png) repeat-x; border-radius: 5px; }
+  #feeequote { position: absolute; top: 20px; right: 30px; font-size: 20px; color: #FFF; text-shadow: 0px 0px 5px #000; }
+  #phonenum { position: absolute; top: 65px; right: 30px; font-size: 42px; font-weight: bold; text-transform: uppercase; color: #FFF; text-shadow: 0px 0px 5px #000; }
+  #estimates { position: absolute; top: 130px; right: 30px; font-size: 18px;  text-transform: uppercase; color: #FFF; text-shadow: 0px 0px 5px #000; }
+
+/*NAV*/
+nav { width: 950px; height: 40px; background: #872a2c; border-radius: 5px; position: relative; } 
+  #navbg { width: 950px; height: 35px; background: #692a2c; position: absolute; bottom: 0px; border-radius: 5px; }
+    #navlinks { width: 950px; height: 35px; }
+      #navlinks ul { list-style-type: none; background: url(/images/design/navnorm.png) repeat-x 0px 0px; border-top-left-radius: 5px; }
+      #navlinks li { height: 35px; display: inline-block; padding: 0px 20px; border-right: 1px solid #FFF; }
+      #navlinks a { font-size: 14px; font-weight: bold; text-transform: uppercase; color: #FFF; text-decoration: none; line-height: 35px; text-shadow: 0px 0px 5px #000; }
+      #navlinks a:hover { text-decoration: underline; }
+
+/*CONTENT*/
+#contentcontainer { width: 950px; margin:auto; background: #872a2c; border-top-left-radius: 5px; border-top-right-radius: 5px; position: relative; }
+  #contleft { width: 730px; min-height: 430px; background: #FFF; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; float: left; padding: 10px; }
+  #contleftcp { width: 930px; background: #FFF; border-bottom-left-radius: 5px; float: left; padding: 10px; }
+  #contright { width: 190px; float: left; text-align: center; }
+
+/*FOOTER*/
+footer { width: 950px; height: 160px; margin: auto; position: relative; }
+  #mainfooter { width: 950px; height: 155px; background: #692a2c url(/images/design/bottomgradient.jpg) repeat-x; border-radius: 5px; position: absolute; bottom: 0px; }
+    #footeraddy { position: absolute; top: 20px; left: 20px; color: #FFF; font-weight: bold; }
+    #footercopy { position: absolute; bottom: 20px; right: 20px; font-size: 10px; color: #FFF; }
+  #footerbg { width: 950px; height: 160px; background: #872a2c; }
+  #social { position: absolute; bottom: 15px; left: 20px; }
+
+/*GALLERY*/
+.gallerylinks	{ text-align: center; line-height: 32px; }
+.gallerylinks	a { text-align: center; padding: 4px; margin: 4px; border: 2px solid #692a2c; border-radius: 6px; }
+.gallerylinks	a:hover { text-decoration: none; color: #901b4f; }
+
+	
+/* CONTACT PAGE */
+.myform { margin:0 auto; width:540px; height:444px; padding:24px; }
+.formstyle { }
+  .formstyle h1 { font-size:14px; font-weight:bold; margin-bottom:8px; }
+  .formstyle label { display:block; font-weight:bold; text-align:right; width:150px; float:left; }
+  .formstyle .small { color:#BBB; display:block; font-size:11px; font-weight:normal; text-align:right; width:150px; }
+  .formstyle input { float: left; font-size: 12px; padding: 4px 2px; border: solid 1px #333; width: 312px; margin: 2px 0 20px 10px; }
+  .formstyle select { float: left; font-size: 12px; padding: 4px 2px; border: solid 1px #333; width: 318px; margin: 2px 0 20px 10px; }
+  .formstyle textarea { float: left; font-size: 12px; padding: 4px 2px; border: solid 1px #333; width: 312px; margin: 2px 0 20px 10px; }
+  .formstyle button { cursor: pointer; clear: both; margin-left: 160px; border: 2px solid #692a2c; border-bottom-right-radius: 10px; border-top-left-radius: 10px; background: #872a2c; text-align: center; color: #FFF; font-weight: bold; padding: 5px; text-shadow: 2px 2px 2px #111; }
+  .captcha { float: left; width: 320px; height: 130px; margin:0 0 20px 10px; }
+
+/*SERVICES*/
+.lists { display: inline-block; width: 300px; vertical-align: top; }
+.lists ul { padding: 10px; list-style: disc inside; }
+
+/*TESTIMONIAL PAGE*/  
+.testimoniacont { margin-top: 4px; margin-bottom: 4px; border-top: 1px solid #404a24; padding: 2px; } 
+
+
+
+
+
+/* CONTROLPANEL */
+#legcont { width: 180px; margin: auto; text-align: center; }
+.legbooked { width: 75px; display: inline-block; padding: 5px; border: 1px solid #000; text-align: center; background: #CCC; color: #000; }
+.legavaila { width: 75px; display: inline-block; padding: 5px; border: 1px solid #000; text-align: center; background: #88b841; color: #000; }
+#calcont { width: 400px; margin: auto; text-align: center; }
+#prcont { width: 710px; margin: auto; text-align: center; }
+.rhscpbox { width: 300px; display: inline-block; margin: 10px; text-align: center; }
+  .rhscpbox input { padding: 4px 2px; border: solid 1px #333; width: 280px; }
+  .rhscpbox textarea { padding: 4px 2px; border: solid 1px #333; width: 280px; }
+
+.cpform { margin:0 auto; width:540px; padding:24px; }
+.cpformstyle { }
+  .cpformstyle h1 { font-size:14px; font-weight:bold; margin-bottom:8px; }
+  .cpformstyle label { display:block; font-weight:bold; text-align:right; width:150px; float:left; }
+  .cpformstyle .small { color:#BBB; display:block; font-size:11px; font-weight:normal; text-align:right; width:150px; }
+  .cpformstyle img { float: left; font-size: 12px; padding: 4px 2px; border: solid 1px #333; width: 312px; margin: 2px 0 20px 10px; }
+  .cpformstyle input { float: left; font-size: 12px; padding: 4px 2px; border: solid 1px #333; width: 312px; margin: 2px 0 20px 10px; }
+  .cpformstyle select { float: left; font-size: 12px; padding: 4px 2px; border: solid 1px #333; width: 318px; margin: 2px 0 20px 10px; }
+  .cpformstyle textarea { float: left; font-size: 12px; padding: 4px 2px; border: solid 1px #333; width: 312px; margin: 2px 0 20px 10px; }
+  .cpformstyle button { cursor: pointer; clear: both; margin-left: 160px; text-decoration: none; border: 1px solid #000; text-align:center; }
+
+.cppagesform { margin:0 auto; width:600px; padding:24px; }
+.cppagesformstyle { }
+  .cppagesformstyle h1 { font-size:14px; font-weight:bold; margin-bottom:8px; }
+  .cppagesformstyle label { display:block; font-weight:bold; text-align:right; width: 140px; float: left; }
+  .cppagesformstyle .small { color:#BBB; display:block; font-size:11px; font-weight:normal; text-align: right; width: 140px; }
+  .cppagesformstyle img { float: left; font-size: 12px; padding: 4px 2px; border: solid 1px #333; margin: 2px 0 20px 10px; }
+  .cppagesformstyle input { float: left; font-size: 12px; padding: 4px 2px; border: solid 1px #333; width: 412px; margin: 2px 0 20px 10px; }
+  .cppagesformstyle select { float: left; font-size: 12px; padding: 4px 2px; border: solid 1px #333; width: 418px; margin: 2px 0 20px 10px; }
+  .cppagesformstyle textarea { width: 600px; margin: auto; }
+  .cppagesformstyle button { cursor: pointer; clear: both; margin-left: 260px; border: solid 1px #000; text-align:center; }
+
+.pageselector select { font-size: 16px; border: solid 1px #333; }
+#substxtbox { width: 700px; margin: auto; }
+#substxtbox textarea { width: 700px; font-size: 12px; padding: 4px 2px; border: solid 1px #333; }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+@charset "utf-8";
+#slider { width: 700px; height: 300px; position: relative; overflow: hidden; margin: auto; padding: 0px; border: 4px solid #692a2c; box-shadow: 0px 0px 20px #666; }
+#sliderContent { width: 700px; position: absolute; top: 0px; margin-left: 0px; padding: 0px; }
+.sliderImage { width: 700px; height: 300px; float: left; position: relative; display: none; padding: 0px; }
+.sliderImage span { position: absolute; padding: 10px 13px; width: 694px; background-color: #000; filter: alpha(opacity=70); -moz-opacity: 0.7; -khtml-opacity: 0.7; opacity: 0.7; color: #fff; display: none; }
+.sliderImage span strong { font-size: 14px; }
+.top { top: 0px; left: 0px; }
+.bottom { bottom: 0px; left: 0px; }
+.left { top: 0px; left: 0px; width: 110px !important; height: 280px; }
+.right { right: 0px; bottom: 0px; width: 90px !important; height: 290px; }
+#slider ul { list-style: url(none) none outside; padding: 0px; }
+#slider li { padding: 0px; }
